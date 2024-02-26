@@ -5,13 +5,13 @@
 [worldserver]
 
 ########################################
-# My module configuration
+# Levels for gold configuration
 ########################################
 #
-#    MyModule.Enable
-#        Description: Enable my module and print "Hello World" message at server start
+#    LevelsForGold.Enable
+#        Description: Enable levels for gold module
 #        Default:     0 - Disabled
 #                     1 - Enabled
 #
 
-MyModule.Enable = 1
+LevelsForGold.Enable = 1
