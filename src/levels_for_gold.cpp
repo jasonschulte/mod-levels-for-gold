@@ -110,7 +110,7 @@ public:
                 }
                 for(uint8 i = 10; i <= maxPlayerLevel; i+=10)
                 {
-                    if(player->getLevel() < i)
+                    if(player->GetLevel() < i)
                     {
                         AddGossipItemFor(player, GOSSIP_ICON_MONEY_BAG, "Increase character to level " + std::to_string(i), GOSSIP_SENDER_LFG_MAIN, i, "Buy your way to level " + std::to_string(i) + "?", getPlayerLevelCost(player->GetLevel(),i), false);
                     }
